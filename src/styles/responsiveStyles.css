@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1300px) {
+    .product{
+        padding: 20px;
+        height: 400px;
+      
+      }
+
+    .Container {
+        width: 80%;
+      }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .Container {
+        width: 90%;
+      }
+
+      .product{
+        width:40%;
+        height: 400px;
+      
+      }
+}
+
+  @media only screen and (max-width: 600px) {
+
+    .sub_header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .sub_header_left{
+        display: block;
+        margin-bottom: 20px;
+      }
+  }
+
+
+  @media only screen and (max-width: 470px) {
+
+    .product{
+        width:80%;
+        height: 400px;
+      
+      }
+
+    nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .nav-left{
+        text-align: center;
+       
+      }
+
+
+    .nav-left li:first-child{
+    display: block;
+    
+    }
+
+
+  }
